@@ -1,9 +1,12 @@
 #include <unistd.h>
-#include <string.h>
 
-int main() 
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 1 (indicating an error)
+ */
+int main(void)
 {
-    const char* quote = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-    write(2, quotee, strlen(quote));
-    return 1;
+    write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+    return (1);
 }
