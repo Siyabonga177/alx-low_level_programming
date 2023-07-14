@@ -2,11 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 
-/** *main - prints the last digit of a random number and tell id that number is greater than five, less than six or zero
-*
-*always return 0 (success)
-*/
-
+/**
+ * main - Entry point of the program
+ *
+ * This program prints the last digit of a random number and determines
+ * if the number is greater than 5, less than 6, or 0.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
     int n;
